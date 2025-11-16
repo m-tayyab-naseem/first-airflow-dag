@@ -1,0 +1,33 @@
+.git
+.env
+.DS_Store
+airflow_settings.yaml
+__pycache__/
+astro
+.venv
+airflow-webserver.pid
+webserver_config.py
+airflow.cfg
+airflow.db
+
+
+# Airflow
+logs/
+airflow.db
+*.pyc
+__pycache__/
+
+# DVC
+.dvc/cache
+
+# Data files
+*.csv
+!.gitkeep
+
+# Python
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
